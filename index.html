@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Engineer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="#home">
+                    <span class="brand-text">Mohammed Safik M</span>
+                    <span class="brand-subtitle">DevOps Engineer</span>
+                </a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </a></li>
+                <li><a href="#about" class="nav-link">
+                    <i class="fas fa-user"></i>
+                    <span>About</span>
+                </a></li>
+                <li><a href="#skills" class="nav-link">
+                    <i class="fas fa-code"></i>
+                    <span>Skills</span>
+                </a></li>
+                <li><a href="#certifications" class="nav-link">
+                    <i class="fas fa-certificate"></i>
+                    <span>Certifications</span>
+                </a></li>
+                <li><a href="#projects" class="nav-link">
+                    <i class="fas fa-project-diagram"></i>
+                    <span>Projects</span>
+                </a></li>
+                <li><a href="#contact" class="nav-link">
+                    <i class="fas fa-envelope"></i>
+                    <span>Contact</span>
+                </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>DevOps Engineer</h1>
+                <p>Automating, Deploying, and Scaling Cloud Infrastructure</p>
+                <a href="#contact" class="cta-button">Get In Touch</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I'm a DevOps Engineer with expertise in containerization, orchestration, and cloud infrastructure. Specializing in AWS, Docker, and Kubernetes, I bridge the gap between development and operations to create efficient, scalable, and automated deployment pipelines.</p>
+                <p>My focus is on implementing CI/CD practices, infrastructure as code, and maintaining high-availability systems while ensuring security best practices.</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-aws"></i>
+                        <h3>Cloud Computing</h3>
+                        <ul>
+                            <li>AWS Services (EC2, ECS, EKS)</li>
+                            <li>Cloud Architecture</li>
+                            <li>Infrastructure as Code</li>
+                            <li>Terraform</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-docker"></i>
+                        <h3>Containerization</h3>
+                        <ul>
+                            <li>Docker</li>
+                            <li>Container Orchestration</li>
+                            <li>Kubernetes</li>
+                            <li>Microservices Architecture</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-code-branch"></i>
+                        <h3>CI/CD</h3>
+                        <ul>
+                            <li>Jenkins</li>
+                            <li>GitHub Actions</li>
+                            <li>GitLab CI</li>
+                            <li>Automated Testing</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-node-js"></i>
+                        <h3>MERN Stack</h3>
+                        <ul>
+                            <li><i class="fab fa-mongodb"></i> MongoDB</li>
+                            <li><i class="fab fa-node"></i> Express.js</li>
+                            <li><i class="fab fa-react"></i> React.js</li>
+                            <li><i class="fab fa-node-js"></i> Node.js</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-database"></i>
+                        <h3>Database & APIs</h3>
+                        <ul>
+                            <li>RESTful APIs</li>
+                            <li>SQL</li>
+                            <li>MongoDB Atlas</li>
+                            <li>Database Design</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Web Development</h3>
+                        <ul>
+                            <li>JavaScript </li>
+                            <li>TypeScript</li>
+                            <li>HTML5 & CSS3</li>
+                            <li>Responsive Design</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section">
+            <div class="container">
+                <h2>Certifications</h2>
+                <div class="certifications-grid">
+                    <div class="certification-card">
+                        <div class="certification-content">
+                            <h3>Docker Certification</h3>
+                            <p class="issuer">Udemy</p>
+                            <p class="date">2024</p>
+                            <div class="cert-preview">
+                                <embed src="assets/certificates/docker_certificate.pdf" type="application/pdf" class="pdf-embed" />
+                            </div>
+                            <div class="cert-buttons">
+                                <a href="assets/certificates/docker_certificate.pdf" class="cert-btn download-btn" download>
+                                    <i class="fas fa-download"></i> Download
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certification-card">
+                        <div class="certification-content">
+                            <h3>Jenkins Certification</h3>
+                            <p class="issuer">Udemy</p>
+                            <p class="date">2024</p>
+                            <div class="cert-preview">
+                                <embed src="assets/certificates/Jenkins_certificate.pdf" type="application/pdf" class="pdf-embed" />
+                            </div>
+                            <div class="cert-buttons">
+                                <a href="assets/certificates/Jenkins_certificate.pdf" class="cert-btn download-btn" download>
+                                    <i class="fas fa-download"></i> Download
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certification-card">
+                        <div class="certification-content">
+                            <h3>Kubernetes Certification</h3>
+                            <p class="issuer">Udemy</p>
+                            <p class="date">2024</p>
+                            <div class="cert-preview">
+                                <embed src="assets/certificates/kubernetes-Certificate.pdf" type="application/pdf" class="pdf-embed" />
+                            </div>
+                            <div class="cert-buttons">
+                                <a href="assets/certificates/kubernetes-Certificate.pdf" class="cert-btn download-btn" download>
+                                    <i class="fas fa-download"></i> Download
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div class="section-content">
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <h3>Trip Planner</h3>
+                            <p>A comprehensive trip planning application built with MERN stack that helps users plan their travels efficiently.</p>
+                            <div class="tech-stack">
+                                <span>MongoDB</span>
+                                <span>Express.js</span>
+                                <span>React.js</span>
+                                <span>Node.js</span>
+                                <span>Google Maps API</span>
+                            </div>
+                            
+                        </div>
+
+                        <div class="project-card">
+                            <h3>E-commerce Platform</h3>
+                            <p>A full-featured e-commerce platform with containerized microservices architecture using Docker.
+                            </p>
+                            <div class="tech-stack">
+                                <span>MongoDB</span>
+                                <span>Express.js</span>
+                                <span>React.js</span>
+                                <span>Node.js</span>
+                                <span>Docker</span>
+                                
+                            </div>
+                          
+                        </div>
+
+                        <div class="project-card">
+                            <h3>Technical Blog Platform</h3>
+                            <p>A scalable blog platform deployed on Kubernetes cluster .</p>
+                            <div class="tech-stack">
+                                <span>MongoDB</span>
+                                <span>Express.js</span>
+                                <span>React.js</span>
+                                <span>Node.js</span>
+                                <span>Docker</span>
+                                <span>Kubernetes</span>
+                              
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <div class="contact-container">
+                    <form id="contactForm" class="contact-form">
+                        <input type="text" id="name" name="user_name" placeholder="Your Name" required>
+                        <input type="email" id="email" name="user_email" placeholder="Your Email" required>
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="submit-button">
+                            <span class="button-text">Send Message</span>
+                            <span class="button-icon"><i class="fas fa-paper-plane"></i></span>
+                        </button>
+                    </form>
+                    <div id="formStatus" class="form-status"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Let's Connect</h3>
+                    <p>Open to new opportunities and collaborations in DevOps and cloud infrastructure projects.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#certifications">Certifications</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- <div class="footer-section">
+                    <h3>Connect With Me</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div> -->
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mohammed Safik. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+   <!-- EmailJS -->
+   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+   <script>
+       (function() {
+           emailjs.init("e3LmRqg--3FZ9QH89");
+       })();
+   </script>
+   <script src="script.js"></script>
+</body>
+</html>
